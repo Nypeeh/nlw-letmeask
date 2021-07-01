@@ -2,11 +2,11 @@
 
 ## Sobre o projeto
 
-Letmeask é uma aplicação Front-end com integrações ao Firabase de autenticação com escrita e leitura de dados. Construída durante a 6ª edição da NextLevelWeek (#nlw6), evento organizado pela [Rocketseat](https://nextlevelweek.com/ "Site da NextLevelWeek").
+Letmeask é uma aplicação Front-end com integrações ao Firebase de autenticação com escrita e leitura de dados. Construída durante a 6ª edição da NextLevelWeek (#nlw6), evento organizado pela [Rocketseat](https://nextlevelweek.com/ "Site da NextLevelWeek").
 
 ## Intuito
 
-O intuito da aplicação é melhorar gerir de melhor forma as dúvidas e perguntas para conseguir responder sempre as frequentes e mais pedidas.
+O intuito da aplicação é melhorar e gerir de melhor forma as dúvidas e perguntas para conseguir responder sempre as frequentes e mais pedidas.
 
 ## Layout Web
 ![Web_1](https://user-images.githubusercontent.com/71713087/124137648-42f30000-da5c-11eb-9d53-c855e737446a.png)
