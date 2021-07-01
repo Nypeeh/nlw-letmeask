@@ -1,4 +1,5 @@
 # Letmeask
+[![GITHUB](https://img.shields.io/github/license/nypeeh/nlw-letmeask)](https://github.com/Nypeeh/nlw-letmeask/blob/master/LICENSE)
 
 ## Sobre o projeto
 
