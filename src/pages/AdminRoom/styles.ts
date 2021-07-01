@@ -26,6 +26,20 @@ export const HeaderContent = styled.div`
       height: 40px;
     }
   }
+
+  @media (max-width: 450px) {
+    flex-direction: column;
+
+    > a {
+      margin-bottom: 1.5rem;
+    }
+
+    > div {
+      margin-top: 1.5rem;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 `
 
 export const Content = styled.main`
@@ -40,7 +54,7 @@ export const Content = styled.main`
 
     h1 {
       font-family: 'Poppins', sans-serif;
-      font-size: 24px;
+      font-size: 1.5rem;
       color: #29292e;
     }
 
@@ -51,7 +65,7 @@ export const Content = styled.main`
       padding: 8px 16px;
       color: #fff;
       font-weight: 500;
-      font-size: 14px;
+      font-size: 0.9rem;
     }
   }
 

@@ -27,7 +27,7 @@ export const Container = styled.div`
     }
 
     p {
-      font-size: 24px;
+      font-size: 1.5rem;
       line-height: 2rem;
       margin-top: 1rem;
       color: #f8f8f8;
@@ -58,7 +58,7 @@ export const MainContent = styled.div`
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
     margin: 4rem 0 24px;
     font-family: 'Poppins', sans-serif;
   }
@@ -89,7 +89,7 @@ export const MainContent = styled.div`
   }
 
   p {
-    font-size: 14px;
+    font-size: 0.9rem;
     color: #737380;
     margin-top: 1rem;
 

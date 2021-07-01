@@ -88,6 +88,6 @@ export const UserInfo = styled.div`
   span {
     margin-left: 8px;
     color: #737380;
-    font-size: 14px;
+    font-size: 0.9rem;
   }
 `

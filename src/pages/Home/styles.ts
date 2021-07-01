@@ -27,7 +27,7 @@ export const Container = styled.div`
     }
 
     p {
-      font-size: 24px;
+      font-size: 1.5rem;
       line-height: 2rem;
       margin-top: 1rem;
       color: #f8f8f8;
@@ -114,7 +114,7 @@ export const ButtonCreateRoom = styled.button`
 `
 
 export const Separator = styled.div`
-  font-size: 14px;
+  font-size: 0.9rem;
   color: #a8a8b3;
   margin: 2rem 0;
   display: flex;

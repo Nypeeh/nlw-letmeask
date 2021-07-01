@@ -21,6 +21,14 @@ export const HeaderContent = styled.div`
       max-height: 45px;
     }
   }
+
+  @media (max-width: 450px) {
+    flex-direction: column;
+
+    > a {
+      margin-bottom: 1.5rem;
+    }
+  }
 `
 
 export const Content = styled.main`
@@ -35,7 +43,7 @@ export const Content = styled.main`
 
     h1 {
       font-family: 'Poppins', sans-serif;
-      font-size: 24px;
+      font-size: 1.5rem;
       color: #29292e;
     }
 
@@ -46,7 +54,7 @@ export const Content = styled.main`
       padding: 8px 16px;
       color: #fff;
       font-weight: 500;
-      font-size: 14px;
+      font-size: 0.9rem;
     }
   }
 
@@ -77,7 +85,7 @@ export const FormFooter = styled.div`
   margin-top: 1rem;
 
   > span {
-    font-size: 14px;
+    font-size: 0.9rem;
     color: #737380;
     font-weight: 500;
 
@@ -86,7 +94,7 @@ export const FormFooter = styled.div`
       border: 0;
       color: #835afd;
       text-decoration: underline;
-      font-size: 14px;
+      font-size: 0.9rem;
       font-weight: 500;
     }
   }
@@ -106,7 +114,7 @@ export const UserInfo = styled.div`
     margin-left: 8px;
     color: #29292e;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.9rem;
   }
 `
 

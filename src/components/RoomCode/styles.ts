@@ -27,7 +27,7 @@ export const Container = styled.div`
       flex: 1;
       padding: 0 1rem 0 12px;
       width: 230px;
-      font-size: 14px;
+      font-size: 0.9rem;
       font-weight: 500;
     }
   }
