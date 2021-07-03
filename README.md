@@ -35,10 +35,10 @@ Pré-requisitos: npm / yarn
 ```bash
 
 # Clonar repositório
-git clone https://github.com/Nypeeh/podcastr-next.git
+git clone https://github.com/Nypeeh/nlw-letmeask
 
 # Entrar na pasta do projeto Front-End web
-cd podcastr-next
+cd nlw-letmeask
 
 # Instalar dependências
 yarn / npm install
