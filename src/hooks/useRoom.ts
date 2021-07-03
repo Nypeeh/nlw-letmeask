@@ -60,7 +60,19 @@ export function useRoom(roomId: string) {
         })
       )
 
-      setQuestions(parsedQuestions)
+      const sortedByDescQuestions = parsedQuestions.sort((a, b) => {
+        if (a.isAnswered && !b.isAnswered) {
+          return 1
+        } else if (!a.isAnswered && b.isAnswered) {
+          return -1
+        } else if (!a.isAnswered && !b.isAnswered) {
+          return 0
+        } else {
+          return a.likeCount > b.likeCount ? -1 : 1
+        }
+      })
+
+      setQuestions(sortedByDescQuestions)
       setTitle(databaseRoom.title)
     })
 
